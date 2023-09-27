@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>MART HC</title>
+        <title>HCV MART</title>
         <!-- FAVICON -->
         <link
             rel="apple-touch-icon"
@@ -42,17 +42,18 @@
 
     <body>
         <header id="header" class="header"></header>
-            <script>
-                load("#header", "./templates/header.html");
-            </script>
-        <div class="container">
-            
-           
+        <script>
+            load("#header", "./templates/header.html");
+        </script>
 
-            <footer id="footer">footer</footer>
-            <script>
-                load("#footer", "./templates/footer.html");
-            </script>
-        </div>
+        <main id="home" class="home"></main>
+        <script>
+            load("#home", "./templates/home.html");
+        </script>
+
+        <footer id="footer" class="footer"></footer>
+        <script>
+            load("#footer", "./templates/footer.html");
+        </script>
     </body>
 </html>

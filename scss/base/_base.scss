@@ -12,7 +12,7 @@ body {
     font-size: 1.6rem;
     font-family: Gordita, sans-serif;
     color: var(--text-color);
-    background: var(--body-bg);
+    
 }
 
 a {
@@ -20,6 +20,7 @@ a {
     text-decoration: none;
 }
 
+input,
 button {
     border: none;
     outline: none;
